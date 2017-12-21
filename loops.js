@@ -1,7 +1,7 @@
 
 function forLoop(array) {
-  for (let beans = 0; beans < 25; i++) {
-    if beans === 1 {
+  for (let i = 0; i < 25; i++) {
+    if (i === 1) {
       array.push("I am ${i} strange loop")
     } else {
       array.push("I am ${i} strange loops")
